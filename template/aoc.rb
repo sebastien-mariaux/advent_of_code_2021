@@ -26,10 +26,8 @@ class AocTest < Test::Unit::TestCase
   end
 end
 
-puts '################'
-puts "PART 1"
-puts Aoc.new.aoc_1
-puts '###############'
-puts "PART 2"
-puts Aoc.new.aoc_2
-puts '###############'
+puts '---RESULTS---'
+puts '-------------'
+puts "PART 1: #{Aoc.new.aoc_1}"
+puts "PART 2: #{Aoc.new.aoc_2}"
+puts '-------------'
